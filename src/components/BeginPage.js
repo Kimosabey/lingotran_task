@@ -16,7 +16,7 @@ function BeginPage() {
           <div className='welcome-title'>
             <h4>Hi, Welcome to the assignment</h4>
           </div>
-          <div className='sub-title'>
+          <div className='title'>
             <h1>Portuguese Language Test 1</h1>
           </div>
           <div className='btn-container'>

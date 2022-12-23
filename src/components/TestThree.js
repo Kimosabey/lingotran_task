@@ -39,9 +39,6 @@ const TestThree = () => {
 
 
 
-  // console.log(strArr.shift())
-  // console.log(strArr[0]);
-
   let words = completedSentence.map((item) => (<div className="word">
     <p>{item}</p>
   </div >)
@@ -54,16 +51,13 @@ const TestThree = () => {
     console.log(innerHTML)
 
     if (strArr[0] === innerHTML) {
-      // alert("correct!")
+
       SetstrArr([...strArr].slice(1))
       SetCompletedSentence([...completedSentence, innerHTML])
       SetrandomWords([...randomWords].filter(item => item !== innerHTML))
       console.log("strArr :", strArr)
 
     } else {
-      // alert("not word!")
-
-
 
 
     }
@@ -71,8 +65,7 @@ const TestThree = () => {
       new Audio(ringer2).play();
     }
   }
-  // console.log("completedSentence :", completedSentence)
-  // console.log("strArr :", strArr)
+
 
 
 
