@@ -5,7 +5,8 @@ import ProgressCard from './ProgressCard';
 import { Navigate, useNavigate } from 'react-router-dom';
 
 
-const TestOne = () => {
+const TestOne = (props) => {
+  console.log("t1 ", props)
 
   const navigate = useNavigate()
   const [CorrectAns, setCorrectAns] = React.useState(false)
