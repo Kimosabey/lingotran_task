@@ -23,7 +23,7 @@ nav {
   background-color: rgb(65, 1, 152);
   padding: 30px;
   z-index: 1000;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .navigation {
@@ -646,6 +646,7 @@ h1 {
     /* background-color: yellow; */
     max-width: 90%;
   }
+
   .times-left {
     background-color: whitesmoke;
     border-radius: 5%;
@@ -669,5 +670,8 @@ h1 {
   }
 }
 
-@media (max-width: 1700px) {
-}
+
+/* 
+@media (max-width: 1600px) {
+
+} */

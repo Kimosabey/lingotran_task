@@ -99,10 +99,8 @@ const TestOne = (props) => {
               <h3>Level</h3>
               <h1>01</h1>
             </div>
-
           </div>
         </div>
-
       </div>
 
     </div >
